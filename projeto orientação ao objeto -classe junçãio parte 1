@@ -1,0 +1,48 @@
+#include <iostream>
+
+using namespace std;
+
+// nomeando a classe.
+class juncao{ 
+// declarando as variavéis anexadas ao método.
+int vet1[6]; 
+int vet2[6];
+int vet3[12];
+
+int A;
+// método público para acesso do usúario.
+public: 
+// declarando o método.
+    vets1(int vet[6]);
+
+};
+
+// Entrada dos valores.
+int juncao::vets1(int vet[6]){//parãmetro do método.
+for (A=0;A<6;A++){
+    cout<<"Digite o valor desejado do primeiro array:"<<A<<""<<endl;
+    cin>>vet1[A];
+}
+for (A=0;A<6;A++){
+    cout<<"Digite o valor desejado do segundo array:"<<A<<""<<endl;
+    cin>>vet2[A];
+}
+ 
+for (A=0;A<6;A++){
+    vet3[A]=vet1[A];
+}
+    for (A=6;A<12;A++)
+        vet3[A]=vet2[A-6];
+
+         for (A=0;A<12;A++ )
+        cout<<vet3[A]<<endl;
+    }
+
+
+int main(){
+	// saída.
+    int vet[6];
+juncao vettt;
+vettt.vets1(vet
+return 0;
+}
